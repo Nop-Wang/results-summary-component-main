@@ -1,0 +1,37 @@
+.summary {
+    display: flex;
+    width: 290px;
+    height: 55px;
+    
+    flex-direction: row;
+    align-items: center;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 20px;
+
+    
+    > img {
+      padding: 0 20px;
+    }
+    > p:nth-of-type(1) {
+      width: 150px;
+      color: var(--light-red);
+    }
+    > p:nth-of-type(2) {
+      color: black;
+      font-weight: 500;
+      > span {
+        color: gray;
+        font-weight: 500;
+      }
+    }
+  }
+  .btn{
+    margin-top: 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    width: 290px;
+    height: 55px;
+    background-color:black;
+    font-size: 18px;
+  }
